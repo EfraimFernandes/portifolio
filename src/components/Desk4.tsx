@@ -1,4 +1,4 @@
-import styles from "../../styles/Desk4.module.css"
+import styles from "../styles/Desk4.module.css"
 
 export default function Desk4(){
     return (

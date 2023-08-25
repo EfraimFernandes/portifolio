@@ -1,4 +1,4 @@
-import styles from "../../styles/Desk2.module.css"
+import styles from "../styles/Desk2.module.css"
 
 export default function Desk2(){
     return (

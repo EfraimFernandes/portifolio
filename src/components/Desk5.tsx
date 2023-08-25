@@ -1,4 +1,4 @@
-import styles from "../../styles/Desk5.module.css"
+import styles from "../styles/Desk5.module.css"
 
 export default function Desk5(){
     return (

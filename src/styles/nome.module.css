@@ -1,0 +1,11 @@
+.nome {
+    background-image: linear-gradient(to right bottom, #FBB03B, #D4145A);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+    margin: 0 20px 0 20px;
+  }
+  
