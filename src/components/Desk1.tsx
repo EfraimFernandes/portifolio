@@ -2,10 +2,11 @@ import styles from "../styles/Desk1.module.css"
 import avatar from "../../public/images/image-avatar.png"
 import Image from "next/image"
 import Nome from "./nome"
+import { Link } from "react-scroll"
 
 export default function Desk1(){
     return (
-        <div className={styles.Desk1}>
+        <div id="Inicio" className={styles.Desk1}>
             <div className={styles.body}>
                     <Image 
                         className={styles.imgAvatar}
@@ -20,11 +21,10 @@ export default function Desk1(){
                     <h1 className={styles.nome}><Nome text="Efraim"/> Fernandes</h1>
                     <h2 className={styles.desc}>Desenvolvedor Web</h2>
                 </div>
-            <a href="#Inicio">
-            <button className={styles.btn}>
-                        Sobre Mim ↓
-            </button>
-            </a>
+            
+                <button className={styles.btn}>
+                    <Link to="SobreMim" spy={true} smooth={true} offset={50} duration={500} className={styles.a}>Sobre Mim ↓</Link>
+                </button>
             </div>
         </div>
     )
