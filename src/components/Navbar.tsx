@@ -26,16 +26,21 @@ export default function Navbar() {
                 alt={"Logo"}  
             />
             <div className={styles.navegacao}>
-
-                <li className={styles.navegacao}>
-                    <Link to="Inicio" spy={true} smooth={true} offset={50} duration={500} className={styles.a}>Início</Link>
+                <li className={styles.navItem}>
+                    <Link to="Inicio" spy={true} smooth={true} offset={100} duration={500} className={styles.a}>Início</Link>
                 </li>
-                <li className={styles.navegacao}>
-                    <Link to="SobreMim" spy={true} smooth={true} offset={50} duration={500} className={styles.a}>Sobre Mim</Link>
+                <li className={styles.navItem}>
+                    <Link to="SobreMim" spy={true} smooth={true} offset={100} duration={500} className={styles.a}>Sobre Mim</Link>
                 </li>
-                <li className={styles.navegacao}><a className={styles.a} href="#MinhasHabilidades">Minhas Habilidades</a></li>
-                <li className={styles.navegacao}><a className={styles.a} href="#MeusProjetos">Meus Projetos</a></li>
-                <li className={styles.navegacao}><a className={styles.a} href="#Contato">Contato</a></li>
+                <li className={styles.navItem}>
+                    <Link to="MinhasHabilidades" spy={true} smooth={true} offset={100} duration={500} className={styles.a}>Minhas Habilidades</Link>
+                </li>
+                <li className={styles.navItem}>
+                    <Link to="MeusProjetos" spy={true} smooth={true} offset={100} duration={500} className={styles.a}>Meus Projetos</Link>
+                </li>
+                <li className={styles.navItem}>
+                    <Link to="Contato" spy={true} smooth={true} offset={100} duration={500} className={styles.a}>Contato</Link>
+                </li>
             </div>
         </div>
     )

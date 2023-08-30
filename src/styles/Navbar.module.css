@@ -4,7 +4,7 @@
     justify-content: space-between;
     margin: 0 5% 0 0;
     position: fixed;
-    background-color: #1B1926;
+    background-color: #1B1926dd;
 }
 
 .logo {
@@ -17,8 +17,16 @@
     justify-content: space-between;
 }
 
-.a {
-    text-decoration: none;
+.navegacao {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.navItem {
+    list-style: none;
     color: #fff;
     font-weight: 200;
+    margin-right: 5%;
+    cursor: pointer;
 }
