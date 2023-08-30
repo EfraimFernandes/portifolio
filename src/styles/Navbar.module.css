@@ -5,6 +5,7 @@
     margin: 0 5% 0 0;
     position: fixed;
     background-color: #1B1926dd;
+    z-index: 1;
 }
 
 .logo {

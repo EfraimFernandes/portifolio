@@ -1,9 +1,56 @@
 .Desk2 {
     width: 100%;
-    height: 1000px;
+    height: 750px;
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #313541;
     color: #fff;
+}
+
+.img {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: 0.5;
+}
+
+.content {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.cabecalho {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: initial;
+    z-index: 1;
+}
+
+.textSobreMim {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+
+}
+
+.imgBall {
+    bottom: -871px;
+    right: 0px;
+    z-index: 0.01;
+    position: absolute;
 }
