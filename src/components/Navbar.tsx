@@ -21,7 +21,7 @@ export default function Navbar() {
                     <Link to="SobreMim" spy={true} smooth={true} offset={-150} duration={500} className={styles.a}>Sobre Mim</Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link to="MinhasHabilidades" spy={true} smooth={true} offset={100} duration={500} className={styles.a}>Minhas Habilidades</Link>
+                    <Link to="MinhasHabilidades" spy={true} smooth={true} offset={-50} duration={500} className={styles.a}>Minhas Habilidades</Link>
                 </li>
                 <li className={styles.navItem}>
                     <Link to="MeusProjetos" spy={true} smooth={true} offset={100} duration={500} className={styles.a}>Meus Projetos</Link>
