@@ -3,6 +3,7 @@ import avatar from "../../public/images/image-avatar.png"
 import Image from "next/image"
 import Nome from "./nome"
 import { Link } from "react-scroll"
+import Btn from "./btn"
 
 export default function Desk1(){
     return (
@@ -22,9 +23,7 @@ export default function Desk1(){
                     <h2 className={styles.desc}>Desenvolvedor Web</h2>
                 </div>
             
-                <button className={styles.btn}>
-                    <Link to="SobreMim" spy={true} smooth={true} offset={50} duration={500} className={styles.a}>Sobre Mim ↓</Link>
-                </button>
+               <Btn txt="Sobre Mim ↓"/>
             </div>
         </div>
     )
