@@ -34,13 +34,6 @@ export default function Desk2(){
                     </p>
                 </div>
             </div>
-            <div className={styles.imgBall}>
-                <Image 
-                    src={imgBall}
-                    width={300}
-                    alt="Imagem do semicículo no background"
-                />
-            </div>
         </div>
     )
 }

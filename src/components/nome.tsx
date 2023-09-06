@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "../styles/nome.module.css"
 
 interface NomeProps{

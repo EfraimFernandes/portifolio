@@ -10,7 +10,7 @@ interface BtnInterface{
 export default function Btn(props: BtnInterface){
     return(
         <button className={styles.btn}>
-            <Link to={props.to} spy={true} smooth={true} offset={50} duration={500} className={styles.a}>{props.txt}</Link>
+            <Link to={props.to} spy={true} smooth={true} offset={-150} duration={500} className={styles.a}>{props.txt}</Link>
         </button>
     )
 }

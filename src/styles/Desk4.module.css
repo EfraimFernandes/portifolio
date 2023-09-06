@@ -1,8 +1,21 @@
 .Desk4 {
     width: 100%;
-    height: 1000px;
+    height: 1300px;
     display: flex;
     justify-content: center;
     background-color: #313541;
     color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.a:hover {
+    cursor: pointer;
 }

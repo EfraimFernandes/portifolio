@@ -1,3 +1,6 @@
+import styles from "../styles/Desk4.module.css"
+import { Link } from "react-scroll"
+
 interface LinguagensInterface {
     txt: string
     corBg: string
@@ -6,6 +9,7 @@ interface LinguagensInterface {
 
 export default function Linguagens(props: LinguagensInterface){
     return(
+        <Link to="MinhasHabilidades" spy={true} smooth={true} offset={-100} duration={500} className={styles.a}>
         <div style={{
             display:"flex",
             alignItems:"center",
@@ -23,5 +27,6 @@ export default function Linguagens(props: LinguagensInterface){
                 fontSize: "0.8rem"
             }} id="txt">{props.txt}</h3>
         </div>
+        </Link>
     )
 }

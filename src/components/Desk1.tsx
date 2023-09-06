@@ -2,7 +2,6 @@ import styles from "../styles/Desk1.module.css"
 import avatar from "../../public/images/image-avatar.png"
 import Image from "next/image"
 import Nome from "./nome"
-import { Link } from "react-scroll"
 import Btn from "./btn"
 
 export default function Desk1(){
@@ -23,7 +22,7 @@ export default function Desk1(){
                     <h2 className={styles.desc}>Desenvolvedor Web</h2>
                 </div>
             
-               <Btn txt="Sobre Mim ↓"/>
+               <Btn txt="Sobre Mim ↓" to="SobreMim"/>
             </div>
         </div>
     )
