@@ -2,6 +2,45 @@
     border-radius: 0 20px 0 20px;
 }
 
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.projectDesc {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+.title {
+    color: #a9cdec;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.linguagens {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.descProj {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.btns {
+    width: 80%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .btn {
     border: none;
     padding: 10px 20px 10px 20px;
@@ -9,14 +48,102 @@
     font-weight: 200;
     color: #fff;
     border-radius: 10px;
-    margin-top: 100px;
     background-image: linear-gradient(to right bottom, #464D64, #788EA9);
     transition: .6s all ease-in-out;
     outline: none;
     width: 180px;
-
 }
 
 .btn:hover {
     transform: scale(1.05);
+    cursor: pointer;
+}
+
+.linkVerGit {
+    color: #a9cdec;
+    transition: .2s all ease-in-out;
+}
+
+.linkVerGit:hover {
+    text-decoration: none;
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+
+.projectImgE {
+    border-radius: 0 20px 0 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.projectDesce {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+.title {
+    color: #a9cdec;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.linguagens {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.descProj {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.btnse {
+    width: 80%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btne {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 10px;
+    background-image: linear-gradient(to right bottom, #464D64, #788EA9);
+    transition: .6s all ease-in-out;
+    outline: none;
+    width: 180px;
+}
+
+.btne:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.linkVerGit {
+    color: #a9cdec;
+    transition: .2s all ease-in-out;
+}
+
+.linkVerGit:hover {
+    text-decoration: none;
+    transform: scale(1.02);
 }
