@@ -8,9 +8,7 @@ export default function Desk3(){
                 <h1>Minhas Habilidades</h1>
             </div>
             <div className={styles.content}>
-                <div className={styles.cabecalho}>
-                    <h1>Linguagens e Biblioteca</h1>
-                </div>
+                
                 <div className={styles.skils}>
                     <JS />
                     <HTML5 />
