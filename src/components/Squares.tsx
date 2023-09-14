@@ -14,7 +14,7 @@ export function JS() {
             {isShown && (
                 <DescSquare 
                     titulo="JavaScript"
-                    descricao="JavaScript é uma linguagem de programação muito boa!!"
+                    proeficiencia="Boa"
                 />
             )}
         </div>
@@ -32,7 +32,7 @@ export function HTML5() {
             {isShown && (
                 <DescSquare 
                     titulo="HTML 5"
-                    descricao="HTML 5 é uma linguagem de marcação de hiper texto excelente!!"
+                    proeficiencia="Excelente"
                 />
             )}
         </div>
@@ -50,7 +50,7 @@ export function CSS3() {
             {isShown && (
                 <DescSquare 
                     titulo="CSS 3"
-                    descricao="CSS é uma linguagem de stilização excelente!!"
+                    proeficiencia="Excelente"
                 />
             )}
         </div>
@@ -68,7 +68,7 @@ export function PHP() {
             {isShown && (
                 <DescSquare 
                     titulo="PHP"
-                    descricao="PHP é uma boa linguágem de programação!"
+                    proeficiencia="Normal"
                 />
             )}
         </div>
@@ -86,7 +86,7 @@ export function TS() {
             {isShown && (
                 <DescSquare 
                     titulo="TypeScript"
-                    descricao="TypeScript é uma linguagem excelente!!"
+                    proeficiencia="Muito Boa"
                 />
             )}
         </div>
@@ -104,7 +104,7 @@ export function REACT() {
             {isShown && (
                 <DescSquare 
                     titulo="React"
-                    descricao="React é uma bibliotega JavaScript"
+                    proeficiencia="Boa"
                 />
             )}
         </div>
