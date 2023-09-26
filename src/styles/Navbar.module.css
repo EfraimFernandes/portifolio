@@ -35,3 +35,57 @@
 .navItem:hover {
     color: #a9cdec;
 }
+
+@media (max-width: 1600px) {
+    .navegacao {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .navegacao {
+        width: 70%;
+    }
+}
+
+@media (max-width: 890px) {
+    .navegacao {
+        width: 90%;
+    }
+    .navItem {
+        list-style: none;
+        color: #fff;
+        font-weight: 200;
+        margin-right: 3%;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 750px) {
+    .navegacao {
+        width: 100%;
+    }
+    .navItem {
+        list-style: none;
+        color: #fff;
+        font-weight: 200;
+        margin-right: 2%;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 710px) {
+    .navegacao {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0 5% 0 0;
+        position: fixed;
+        background-color: #1B1926dd;
+        z-index: 1;
+    }
+}
