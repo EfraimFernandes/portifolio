@@ -84,7 +84,7 @@
         width: 100%;
         justify-content: center;
         margin: 0 5% 0 0;
-        position: fixed;
+        position: absolute;
         background-color: #1B1926dd;
         z-index: 1;
     }
