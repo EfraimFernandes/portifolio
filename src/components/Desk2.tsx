@@ -1,6 +1,5 @@
 import styles from "../styles/Desk2.module.css"
 import imgSobreMim from "../../public/images/image-sobremim.png"
-import imgBall from "../../public/images/ball-sobremim.png"
 import Image from "next/image"
 import Nome from "./nome"
 
@@ -22,7 +21,7 @@ export default function Desk2(){
                     <p className={styles.textSobreMim}>
                         Meu nome é {<Nome text="Efraim Quintunda Fernandes" />}
                     </p> 
-                    <p className={styles.textSobreMim}>
+                    <p className={styles.textSobreMim2}>
                         Antes de qualquer coisa, a senção de criar uma aplicação do iníco ao fim, 
                         passando por cada etapa e vendo a evolução do todo, realmente não tem preço, 
                         pode-se dizer que essa é uma das coisas que mais me fez ser tão apaixonado por programação! 

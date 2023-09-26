@@ -44,15 +44,98 @@
     display: flex;
     width: 100%;
     margin-bottom: 20px;
+    line-height: 1.6em;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.textSobreMim {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
     font-size: 1.2rem;
     line-height: 1.6em;
     font-size: 1.3rem;
     font-weight: 200;
 }
 
-.imgBall {
-    bottom: -871px;
-    right: 0px;
-    z-index: 0.01;
-    position: absolute;
+@media (max-width: 1100px) {
+    .textSobreMim2 {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .img {
+       display: none;
+    }
+    .Desk2 {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #313541;
+        color: #fff;
+    }
+}
+
+@media (max-width: 835px) {
+    .textSobreMim {
+        line-height: 1.6em;
+        font-size: 1.1rem;
+    }
+    .cabecalho {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .textSobreMim {
+        line-height: 1.6em;
+        font-size: 1rem;
+    }
+    .cabecalho {
+        font-size: 1.5rem;
+    }
+    .Desk2 {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: left;
+        background-color: #313541;
+        color: #fff;
+    }
+    .content {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 400px) {
+    .textSobreMim {
+        line-height: 1.8em;
+        font-size: 1rem;
+    }
+    .cabecalho {
+        font-size: 1.5rem;
+    }
+    .Desk2 {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: left;
+        background-color: #313541;
+        color: #fff;
+    }
+    .content {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
 }
