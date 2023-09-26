@@ -18,7 +18,7 @@ export default function Desk2(){
                     <h1>Sobre Mim</h1>
                 </div>
                 <div className={styles.text}>
-                    <p className={styles.textSobreMim}>
+                    <p className={styles.textSobreMim1}>
                         Meu nome é {<Nome text="Efraim Quintunda Fernandes" />}
                     </p> 
                     <p className={styles.textSobreMim2}>
