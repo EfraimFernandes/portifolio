@@ -8,11 +8,7 @@ import CineMaven from "../../public/images/image-cinemaven.png"
 export default function Desk4(){
     return (
         <div className={styles.Desk4} id="MeusProjetos">
-            <h1
-            style={{
-                fontSize:"3.5rem"
-            }}
-            >Veja alguns dos meus projetos...</h1>
+            <h1 className={styles.titulo}>Veja alguns dos meus projetos...</h1>
             <div className={styles.projects}>
                 <ProjectD
                     src={Sneakers}

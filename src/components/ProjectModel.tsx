@@ -45,8 +45,8 @@ export function ProjectD(props: ProjectInterface) {
                     </a>
 
                     <a href={props.gitProj} target="_blank" rel="noopener noreferrer" className={styles.linkVerGit}>Ver no GitHub</a>
-                </div>
             </div>
+        </div>
 
             
         </div>
