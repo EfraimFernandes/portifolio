@@ -22,21 +22,22 @@
 
 .titulo {
     font-size: 3.5rem;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 1300px) {
     .Desk4 {
-        height: 1200px;
+        height: 1800px;
     }
 }
 @media (max-width: 900px) {
     .Desk4 {
-        height: 1100px;
+        height: 1700px;
     }
 }
 @media (max-width: 670px) {
     .Desk4 {
-        height: 900px;
+        height: 1230px;
     }
 }
 

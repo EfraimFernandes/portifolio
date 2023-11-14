@@ -19,7 +19,7 @@ export default function Desk2(){
                 </div>
                 <div className={styles.text}>
                     <p className={styles.textSobreMim1}>
-                        Meu nome é {<Nome text="Efraim Quintunda Fernandes" />}
+                        Olá! Eu sou o {<Nome text="Efraim Q. Fernandes" />}
                     </p> 
                     <p className={styles.textSobreMim2}>
                         Antes de qualquer coisa, a senção de criar uma aplicação do iníco ao fim, 
