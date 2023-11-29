@@ -33,7 +33,7 @@ export default function Desk4(){
                     gitProj="https://github.com/EfraimFernandes/linklibrary"
                 />
 
-                {/* CineMaven */}
+                {/* CineMaven
                 <ProjectD
                     src={CineMaven}
                     alt="Imagem de um dos meus projetos, CineMaven!"
@@ -41,7 +41,7 @@ export default function Desk4(){
                     descProj="É um site que faz indicações de filmes, mostrando a nota do filme de 0 a 100 e um breve resumo"
                     siteProj="https://cinemaven-efra.netlify.app"
                     gitProj="https://github.com/EfraimFernandes/CineMaven"
-                /> 
+                />  */}
 
                 
             </div>
