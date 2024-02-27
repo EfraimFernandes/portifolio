@@ -18,18 +18,13 @@ export default function Desk2(){
                     <h1>Sobre Mim</h1>
                 </div>
                 <div className={styles.text}>
-                    <p className={styles.textSobreMim1}>
-                        Olá! Eu sou o {<Nome text="Efraim Q. Fernandes" />}
-                    </p> 
-                    <p className={styles.textSobreMim2}>
-                        Antes de qualquer coisa, a senção de criar uma aplicação do iníco ao fim, 
-                        passando por cada etapa e vendo a evolução do todo, realmente não tem preço, 
-                        pode-se dizer que essa é uma das coisas que mais me fez ser tão apaixonado por programação! 
-                    </p>
                     <p className={styles.textSobreMim}>
-                        Meus primeiros contatos com a progração foram em 2020, no meu primiero ano do ensino médio, porém, 
-                        só entrei de cabeça nesse mundo em 2023.Atualmente tenho um domíno avançado do front end  e um conhecimento rezoável no back-end. 
-                        Também gosto de criar designs no figma para  as interfaces dos meus projetos.
+                    Como filho de programador, começei na programação bem cedo estudando Java para aprender lógica de programação.
+                    E então estudei a construção de banco de dados relacionais e não relacionais... 
+                    Depois de um ano, comecei a estudar o Front End aprendendo várias linguagens e tecnologias 
+                    como CSS, Js, React, PHP, Angular, Next, entre outros.
+                    <br/>
+                    Depois de dois anos e pouco estudando o Front, voltei para o Back. E hoje estou trabalhando na Recovery como estagiário em engenharia de software
                     </p>
                 </div>
             </div>

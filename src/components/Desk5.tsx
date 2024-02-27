@@ -67,7 +67,7 @@ export default function Desk5(){
                         </div>
                     </div>
                     <div className={styles.baixo}>
-                        <h3 style={{ marginBottom:"50px" }}>© Efraim Fernandes    2023</h3>
+                        <h3 style={{ marginBottom:"50px" }}>© Efraim Fernandes    2024</h3>
                     </div>
                 </div>
                 <div className={styles.centro}>
