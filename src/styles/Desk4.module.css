@@ -1,70 +1,51 @@
 .Desk4 {
-    width: 100%;
-    height: 1500px;
-    display: flex;
-    justify-content: center;
-    background-color: #313541;
-    color: #fff;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  min-height: 100vh; /* evita cortar em telas maiores/menores */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #313541;
+  color: #fff;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+  gap: 2rem;
 }
 
 .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.a:hover {
-    cursor: pointer;
+  display: flex;
+  flex-wrap: wrap; /* quebra quando não cabe mais */
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
 }
 
 .titulo {
-    font-size: 3.5rem;
-    margin-bottom: 40px;
+  font-size: clamp(2rem, 5vw, 3.5rem); /* escala suave */
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  word-break: break-word;
+  text-align: center;
 }
 
-@media (max-width: 1300px) {
-    .Desk4 {
-        height: 1800px;
-    }
+/* imagens / iframes dentro não estourarem */
+.Desk4 img,
+.Desk4 iframe {
+  max-width: 100%;
+  height: auto;
 }
+
+/* ajustes adicionais para mobile */
 @media (max-width: 900px) {
-    .Desk4 {
-        height: 1700px;
-    }
-}
-@media (max-width: 670px) {
-    .Desk4 {
-        height: 1230px;
-    }
-}
-
-@media (max-width: 930px) {
-    .titulo {
-        font-size: 3rem;
-    }
-}
-
-@media (max-width: 800px) {
-    .titulo {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 670px) {
-    .titulo {
-        font-size: 2rem;
-    }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 535px) {
-    .titulo {
-        text-align: center;
-    }
-    .Desk4 {
-        height: 900px;
-    }
+  .titulo {
+    /* já tem text-align center, mas reforça se precisar */
+  }
 }
-

@@ -3,7 +3,7 @@
 import styles from "../styles/Desk4.module.css"
 import { ProjectD, ProjectE} from "./ProjectModel"
 import Sneakers from "../../public/images/image-sneakers.png"
-import CineMaven from "../../public/images/image-cinemaven.png"
+import DevFinder from "../../public/images/image-devFinder.png"
 import LinkLibrary from "../../public/images/image-linklibrary.png"
 
 
@@ -33,17 +33,15 @@ export default function Desk4(){
                     gitProj="https://github.com/EfraimFernandes/linklibrary"
                 />
 
-                {/* CineMaven
+                {/* DevFinder */}
                 <ProjectD
-                    src={CineMaven}
-                    alt="Imagem de um dos meus projetos, CineMaven!"
-                    title="CineMaven"
-                    descProj="É um site que faz indicações de filmes, mostrando a nota do filme de 0 a 100 e um breve resumo"
-                    siteProj="https://cinemaven-efra.netlify.app"
-                    gitProj="https://github.com/EfraimFernandes/CineMaven"
-                />  */}
-
-                
+                    src={DevFinder}
+                    alt="Usando a API do GitHub para encontrar usuários"
+                    title="DevFinder"
+                    descProj="Uma página usando a API do GitHub para encontrar usuários"
+                    siteProj="http://devfinder-efraimfernandes.netlify.app/"
+                    gitProj="https://github.com/EfraimFernandes/DevFinder"
+                /> 
             </div>
         </div>
     )
