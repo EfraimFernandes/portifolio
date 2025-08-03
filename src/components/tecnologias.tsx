@@ -1,15 +1,15 @@
 import styles from "../styles/Desk4.module.css"
 import { Link } from "react-scroll"
 
-interface LinguagensInterface {
+interface TecnologiasInterface {
     txt: string
     corBg: string
     color: string
 }
 
-export default function Linguagens(props: LinguagensInterface){
+export default function Tecnologias(props: TecnologiasInterface){
     return(
-        <Link to="MinhasHabilidades" spy={true} smooth={true} offset={-100} duration={500} className={styles.a}>
+        <Link to="Tecnologias" spy={true} smooth={true} offset={-100} duration={500} className={styles.a}>
         <div style={{
             display:"flex",
             alignItems:"center",

@@ -19,12 +19,15 @@ export default function Desk2(){
                 </div>
                 <div className={styles.text}>
                     <p className={styles.textSobreMim}>
-                    Como filho de programador, começei na programação bem cedo estudando Java para aprender lógica de programação.
-                    E então estudei a construção de banco de dados relacionais e não relacionais... 
-                    Depois de um ano, comecei a estudar o Front End aprendendo várias linguagens e tecnologias 
-                    como CSS, Js, React, PHP, Angular, Next, entre outros.
-                    <br/>
-                    Depois de dois anos e pouco estudando o Front, voltei para o Back. E hoje estou trabalhando na Recovery como estagiário em engenharia de software
+                        Desde muito novo tive contato com a programação, influenciado por meu pai, que é programador. 
+                        Comecei com Java para entender os fundamentos da lógica, e logo me aprofundei em bancos de dados relacionais e não relacionais.<br/><br/>
+
+                        Após cerca de um ano, mergulhei no Front-End, estudando tecnologias como HTML, CSS, JavaScript, React, PHP, Angular, Next.js, entre outras. 
+                        Foram mais de dois anos dedicados ao desenvolvimento de interfaces e experiências de usuário.<br/><br/>
+
+                        Depois desse período, voltei meu foco ao Back-End e hoje atuo como estagiário em Engenharia de Software na Recovery. 
+                        Faço parte do time de suporte de software, trabalhando como desenvolvedor fullstack na resolução de incidentes, 
+                        implementação de novas funcionalidades e automação de processos internos.
                     </p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import styles from "../styles/project.module.css"
 import Image from "next/image";
-import Linguagens from "./linguagens";
+import Linguagens from "./tecnologias";
 import Btn from "./btn";
 
 interface ProjectInterface {

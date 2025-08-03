@@ -1,92 +1,92 @@
 import styles from "../styles/Desk3.module.css"
-import { Js, Html5, Css3, React, Php, Ts } from "./icons";
+import { CSharp, PontoNet, SQL, JavaScript, React, Swagger } from "./icons";
 import DescSquare from "./DescSquare";
 import { useState } from "react";
 
-export function JS() {
+export function CS() {
     const [isShown, setIsShown] = useState(false);
 
     return (
         <div className={styles.square} 
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}>
-            <Js/>
+            <CSharp/>
             {isShown && (
                 <DescSquare 
-                    titulo="JavaScript"
-                    proeficiencia="Boa"
+                    titulo="C#"
+                    experiencia="2 Anos"
                 />
             )}
         </div>
     )
 }
 
-export function HTML5() {
+export function DotNet() {
     const [isShown, setIsShown] = useState(false);
 
     return (
         <div className={styles.square} 
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}>
-            <Html5/>
+            <PontoNet/>
             {isShown && (
                 <DescSquare 
-                    titulo="HTML 5"
-                    proeficiencia="Excelente"
+                    titulo=".Net"
+                    experiencia="2 Anos"
                 />
             )}
         </div>
     )
 }
 
-export function CSS3() {
+export function Sql() {
     const [isShown, setIsShown] = useState(false);
 
     return (
         <div className={styles.square} 
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}>
-            <Css3/>
+            <SQL/>
             {isShown && (
                 <DescSquare 
-                    titulo="CSS 3"
-                    proeficiencia="Excelente"
+                    titulo="SQL"
+                    experiencia="4 Anos"
                 />
             )}
         </div>
     )
 }
 
-export function PHP() {
+export function Javascript() {
     const [isShown, setIsShown] = useState(false);
 
     return (
         <div className={styles.square} 
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}>
-            <Php/>
+            <JavaScript/>
             {isShown && (
                 <DescSquare 
-                    titulo="PHP"
-                    proeficiencia="Normal"
+                    titulo="JavaSccript"
+                    experiencia="5+ Anos"
                 />
             )}
         </div>
     )
 }
 
-export function TS() {
+export function Swag() {
     const [isShown, setIsShown] = useState(false);
 
     return (
         <div className={styles.square} 
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}>
-            <Ts/>
+            <Swagger/>
             {isShown && (
                 <DescSquare 
-                    titulo="TypeScript"
-                    proeficiencia="Muito Boa"
+                    titulo="Swagger"
+                    experiencia="1 Ano"
                 />
             )}
         </div>
@@ -104,7 +104,7 @@ export function REACT() {
             {isShown && (
                 <DescSquare 
                     titulo="React"
-                    proeficiencia="Boa"
+                    experiencia="2 Anos"
                 />
             )}
         </div>

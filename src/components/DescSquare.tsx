@@ -3,7 +3,7 @@ import styles from "../styles/Desk3.module.css"
 
 interface SquareProps {
     titulo: string
-    proeficiencia: string
+    experiencia: string
 }
 
 export default function DescSquare(props: SquareProps) {
@@ -13,7 +13,7 @@ export default function DescSquare(props: SquareProps) {
                 <h1>{props.titulo}</h1>
             </div>
             <div className={styles.desc}>
-                <p> Proeficiência: {props.proeficiencia}</p>
+                <p> Experiência: {props.experiencia}</p>
             </div>
         </div>
     )

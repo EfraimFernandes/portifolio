@@ -1,6 +1,6 @@
 .Desk2 {
     width: 100%;
-    height: 750px;
+    height: 800px;
     display: flex;
     align-items: center;
     background-color: #313541;
@@ -17,7 +17,7 @@
 
 .content {
     width: 60%;
-    height: 50%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     margin-left: 5%;
@@ -71,15 +71,19 @@
     .textSobreMim2 {
         display: none;
     }
+    .Desk2 {
+        width: 100%;
+        height: 900px;
+    }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 970px) {
     .img {
        display: none;
     }
     .Desk2 {
         width: 100%;
-        height: 550px;
+        height: 850px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -108,7 +112,7 @@
     }
     .Desk2 {
         width: 100%;
-        height: 600px;
+        height: 650px;
         display: flex;
         justify-content: left;
         background-color: #313541;
@@ -123,7 +127,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 580px) {
     .textSobreMim {
         line-height: 1.8em;
         font-size: 1rem;
@@ -137,7 +141,7 @@
     }
     .Desk2 {
         width: 100%;
-        height:600px;
+        height: 850px;
         display: flex;
         justify-content: left;
         background-color: #313541;
@@ -145,7 +149,7 @@
     }
     .content {
         width: 100%;
-        height: 90%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         margin-left: 5%;
