@@ -19,7 +19,7 @@ export default function Desk1(){
 
                 <div className={styles.desc}>
                     <h1 className={styles.nome}><Nome text="Efraim"/> Fernandes</h1>
-                    <h2 className={styles.desc}>Engenheiro de Software</h2>
+                    <h2 className={styles.profiss}>Engenheiro de Software</h2>
                 </div>
             
                <Btn txt="Sobre Mim ↓" to="SobreMim"/>
